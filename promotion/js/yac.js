@@ -1,0 +1,143 @@
+/*
+ *  jQuery Yet Another Carousel v0.2
+ *
+ *  Copyright (c) 2015 Chris K Taylor
+ *
+ *  Licensed under MIT
+ *
+ */
+
+(function (global) {
+    'use strict';
+    
+    var Yac, self, activeSlide, delay, numSlides, interval;
+    
+    Yac = function (delay) {
+        return new Yac.init(delay);
+    };
+    
+    Yac.prototype = {
+        
+        // Create the slide indicators at the bottom of the carousel.
+        createIndicators: function () {
+            
+            var indicators, i = 0;
+            
+            $('.yac').append(document.createElement('ul'));
+            indicators = $('.yac ul');
+            indicators.addClass('yac-indicators');
+            
+            // Create an indicator for each slide.
+            $('.yac-inner div').each(function () {
+                indicators.append(document.createElement('li'));
+                indicators.children().last().attr('data-slide', i++);
+            });
+            
+            // Add the active class to the first indicator.
+            $('.yac-indicators li').first().addClass('active');
+            // Set up the on click event for the indicators.
+            $('.yac-indicators li').on('click', self.onClickIndicator);
+            
+        },
+        
+        // Handle click events on the indicators.
+        onClickIndicator: function () {
+            
+            // Stop the timer.
+            clearInterval(self.interval);
+            
+            // Change the active indicator to the clicked indicator.
+            $('.yac-indicators li.active').removeClass('active');
+            $(this).addClass('active');
+            
+            // Get the selected slide and add the active class to it.
+            var nextSlide = parseInt($(this).attr('data-slide'));
+            
+            self.goTo(nextSlide);
+            
+            // Restart the timer.
+            self.interval = setInterval(self.autoScroll, self.delay);
+            
+        },
+        
+        // Transitioning handler
+        goTo: function (next, ignorePosition) {
+            
+            ignorePosition = ignorePosition || false;
+            
+            var offset;
+            
+            // Is the carousel 'moving' forwards or backwards? Set the correct offset.
+            if (next > self.activeSlide || ignorePosition) {
+                offset = $('.yac').width();
+            } else if (next < self.activeSlide) {
+                offset = $('.yac').width() * -1;
+            } else {
+                // Return if the next and current are the same.
+                return;
+            }
+            
+            $('.yac-inner div').eq(next).addClass('active');
+            
+            // Store the two slides being worked on.
+            var slide = $('.yac-inner div').eq(self.activeSlide);
+            var nextSlide = $('.yac-inner div').eq(next);
+            
+            // Set the next slide to it's starting position.
+            nextSlide.css({ left: offset });
+            
+            // Animate transition for each slide.
+            nextSlide.animate({ 'left': '0px' });
+            slide.animate({ 'left': offset * -1 }, function () {
+                // Reset the displaced slides position to zero
+                slide.css({ 'left': '0px' });
+                // and remove the active class.
+                slide.removeClass('active');
+            });
+            
+            self.activeSlide = next;
+            
+        },
+        
+        autoScroll: function () {
+            
+            var offset, next;
+
+            next = self.activeSlide + 1;            
+            // Avoid passing the last element.
+            if (next >= self.numSlides) {
+                next = 0;
+            }
+            
+            self.goTo(next, true);
+            
+            // Change the active indicator.
+            $('.yac-indicators li.active').removeClass('active');
+            $('.yac-indicators li').eq(next).addClass('active');
+            
+        }
+        
+    };
+    
+    // Initialisation.
+    Yac.init = function (delay) {
+        
+        self.createIndicators();
+        self.activeSlide = 0;
+        self.numSlides = $('.yac-inner div').length; // Count the number of slides.
+        self.delay = delay || 10000; // Set default delay if not passed. default:5000
+        self.interval = setInterval(self.autoScroll, self.delay); // Start.
+
+    };
+    
+    self = Yac.init.prototype = Yac.prototype;
+    
+    // store the Yac object in the global context.
+    global.Yac = Yac;
+    
+}(window));
+
+$(document).ready(function () {
+    'use strict';
+    Yac(10000);//unit:mS default:5000
+});

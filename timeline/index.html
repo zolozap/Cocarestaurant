@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Vertical Timeline Plugin Demo</title>
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="lib/cntl.css">
+</head>
+<body>
+<h1 style="margin:150px auto 50px auto" align="center">jQuery Vertical Timeline Plugin Demo</h1>
+<div class="cntl"> <span class="cntl-bar cntl-center"> <span class="cntl-bar-fill"></span> </span>
+  <div class="cntl-states">
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>1957</h4>
+        <p>Srichai Phanphensophon opens the first coca restaurant in Surawong,starting the suki trend in Thailand</p>
+      </div>
+	  <div class="cntl-image"><img src="timeline/images/1.png"></div>
+      <div class="cntl-icon cntl-center">1957</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>1994</h4>
+        <p>Srichai's son,Pitaya,opens the first Mango Tree restaurant in an historic Rama VI home shaded by thr mango tree that inspired its name</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/2.png"></div>
+      <div class="cntl-icon cntl-center">1994</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2001</h4>
+        <p>First overseas Mango Tree opens in London's upscale Belgravia</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/3.png"></div>
+      <div class="cntl-icon cntl-center">2001</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2002</h4>
+        <p>Mango Tree Tokyo brings tom yum kung to the land of the rising sun Tokyo,in the swanky Maronouchi Building</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/4.png"></div>
+      <div class="cntl-icon cntl-center">2002</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2007</h4>
+        <p>Mango Tree Cafe,the first of the sub brand, opens in Yokohama</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/5.png"></div>
+      <div class="cntl-icon cntl-center">2007</div>
+    </div>
+	<div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2008</h4>
+        <p>First Dubai Mango Tree opens in front of the world's tallest building,the Burj al Arab</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/6.png"></div>
+      <div class="cntl-icon cntl-center">2008</div>
+    </div>
+	<div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2008</h4>
+        <p>First Mango Tree Bistro launched,in vibrant Central World shopping centre</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/7.png"></div>
+      <div class="cntl-icon cntl-center">2008</div>
+    </div>
+	<div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2012</h4>
+        <p>Second Mango Tree opens in London,in the iconic department store Harrods</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/8.png"></div>
+      <div class="cntl-icon cntl-center">2012</div>
+    </div>
+	<div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2013</h4>
+        <p>Mango Tree reaches 40 restaurants globally</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/9.png"></div>
+      <div class="cntl-icon cntl-center">2013</div>
+    </div>
+	<div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2014</h4>
+        <p>Mango Tree launches 'RIPE': a global events and entertainment platform</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/10.png"></div>
+      <div class="cntl-icon cntl-center">2014</div>
+    </div>
+	<div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2014</h4>
+        <p>Mango Tree's first restaurant in the USA opens in Washington DC,in a joint venture with one of the US'hottest celebrity chefs,Richard Sandoval</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/11.png"></div>
+    </div>
+  </div>
+</div>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script type="text/javascript" src="lib/jquery.cntl.js"></script> 
+<script type="text/javascript">
+	$(document).ready(function(e){
+		$('.cntl').cntl({
+			revealbefore: 300,
+			anim_class: 'cntl-animate',
+			onreveal: function(e){
+				console.log(e);
+			}
+		});
+	});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="นึกถึงสุกี้ต้นตำรับ นึกถึงเรา Coca Restaurant">
+    <meta name="author" content="S.NATAPONG">
+	<meta property="og:url"           content="http://www.coca.com/cocarestaurant/timeline.html" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="Coca holding international" />
+	<meta property="og:description"   content="นึกถึงสุกี้ต้นตำรับ นึกถึงเรา Coca Restaurant ติดตามโปรโมชั่นใหม่ๆได้ที่นี่!!" />
+	<meta property="og:image"         content="http://www.coca.com/cocarestaurant/promotion/images/2016/02/share/1.jpg" />
+	<meta name="keywords" content="coca, cocarestaurant,best chinese restaurant,best chinese restaurant in bangkok, restaurant, suki,sukirestaurant, suki&restaurant, sukibar, seafood, hotpot, chinese, chineserestaurant, chinesefood, dimsum, noodle, dish, food, dinner, fusionfood, thaifusion, chinesefusion, japanesefusion, thaicusine, thaifood, healthfood, delicious, goodtaste, hungry, สุกี้, ร้านอาหาร, ร้านสุกี้, สุกี้ไทย, ตำนาน, ตำนานสุกี้ไทย, สุกี้ดั่งเดิม, สุกี้บาร์, ชุดสุกี้, ภัตราคารสุกี้, ครัวไทย, อาหารจีน, อร่อย, หลากหลาย, อร่อยมาก, หม้อ, จานด่วน, ร้านจีน, ร้านอาหารจีน, เพื่อสุขภาพ, อาหารเพื่อสุขภาพ, บะหมี่เกี๊ยว, อาหารไทย, อาหารญี่ปุ่น, ซีฟู๊ด, ฯลฯ">
+
+    <title>Coca International Holding</title>
+	<link rel="shortcut icon" type="image/ico" href="img/favicon/coca.ico"/>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+	<!-- Add slider IMG-->
+	<link rel="stylesheet" href="promotion/css/yac.css" />
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+	<!-- Add timeline-->
+	<link rel="stylesheet" type="text/css" href="timeline/lib/cntl.css">
+	<!-- Add Back to top -->
+	<link href="css/backTop.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+	<!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/creative.css" type="text/css">
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="timeline/js/slider.js" type="text/javascript"></script>
+	<script src="timeline/js/jquery.timelinr-0.9.54.js"></script>
+	<script> 
+		$(function(){
+			$().timelinr({
+				autoPlay: 'true',
+				autoPlayDirection: 'forward'
+			})
+		});
+	</script>
+	<script type="text/javascript">
+// <![CDATA[
+/* No Right Click */
+var message="สนใจติดต่อ natapong.sripeung@coca.com";
+function clickIE4()
+{
+	if (event.button==2)
+	{
+		alert(message);
+		return false;
+	}
+}
+function clickNS4(e)
+{
+	if (document.layers||document.getElementById&&!document.all)
+	{
+		if (e.which==2||e.which==3)
+		{
+			alert(message);
+			return false;
+		}
+	}
+}
+if(document.layers)
+{
+	document.captureEvents(Event.MOUSEDOWN);
+	document.onmousedown=clickNS4;
+}
+else if(document.all&&!document.getElementById)
+{
+	document.onmousedown=clickIE4;
+}
+document.oncontextmenu=new Function("alert(message);return false");
+/* End No Right Click */
+
+/* No Highlighting */
+var omitformtags=["input", "textarea", "select"];
+omitformtags=omitformtags.join("|");
+function disableselect(e)
+{
+	if (omitformtags.indexOf(e.target.tagName.toLowerCase())==-1)
+	return false
+}
+function reEnable()
+{
+	return true
+}
+if(typeof document.onselectstart!="undefined")
+{
+	document.onselectstart=new Function ("return false")
+}
+else
+{
+	document.onmousedown=disableselect;
+	document.onmouseup=reEnable;
+}
+/* End  No Highlighting */
+// ]]>
+</script>
+<!--Google analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68962405-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--Flares social share-->
+<script data-cfasync="false" type="text/javascript" src="//filamentapp.s3.amazonaws.com/0b7dd9754bc192f86e8f347c3b2ebbc5.js" async="async"></script>	
+
+</head>
+
+<body id="page-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img style="float:left;" src="img/favicon/coca.png" width="40px" height="40px"><a class="navbar-brand page-scroll" href="home.html">Coca.com</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+					<li>
+                        <a class="page-scroll" href="http://partner.eztable.com/coca"><i class="fa fa-calendar"></i> สำรองที่นั่ง</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="home.html#about">เกี่ยวกับเรา</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="home.html#services">บริการของเรา</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="home.html#branch">สาขาของเรา</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="menu.html">รายการอาหาร</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="promotion.html">โปรโมชั่น</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">ติดต่อเรา</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="en/timeline.html">English site</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Simple Healthy Lively</h1>
+                <hr>
+                <p>นึกถึงสุกี้ต้นตำรับ นึกถึงเรา Coca Restaurant</p>
+                <a href="#story" class="btn btn-primary btn-xl page-scroll">ดูเรื่องราว</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="story">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">กาลครั้งหนึ่ง</h2>
+                    <hr class="light">
+		<div class="cntl"> <span class="cntl-bar cntl-center"> <span class="cntl-bar-fill"></span> </span>
+  <div class="cntl-states">
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2500</h4>
+        <p>คุณศรีชัย พันธุ์เพ็ญโสภณ เปิดร้านอาหารโคคาแห่งแรกในสุรวงศ์เริ่มต้นแนวโน้มสุกี้ในประเทศไทย</p>
+      </div>
+	  <div class="cntl-image"><img src="timeline/images/story/1.jpg"></div>
+      <div class="cntl-icon cntl-center">2500</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2502</h4>
+        <p>คุณศรีชัยและภรรยาคุณปัทมาได้ย้ายไปอยู่บริเวณใกล้เคียงซอยทานตะวันขยายร้านเพิ่มถึง 150 ที่นั่งและนำการรับประทานอาหารแบบหม้อไฟเข้ามาในประเทศไทย</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/story/2.png"></div>
+      <div class="cntl-icon cntl-center">2502</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2503</h4>
+        <p>ลูกค้ารู้จักโคคาเป็นที่แพร่หลายว่าเป็นร้านที่ปรุงอาหารด้วยสมุนไพรที่หลากหลายในรูปแบบหม้อไฟ</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/story/3.png"></div>
+      <div class="cntl-icon cntl-center">2503</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2527</h4>
+        <p>ยุคของคุณศรีชัย พันธุ์เพ็ญโสภณผ่านไป ต่อมาลูกชายคือคุณพิทยาก้าวขึ้นมาดูแลกิจการแทน</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/story/4.png"></div>
+      <div class="cntl-icon cntl-center">2527</div>
+    </div>
+    <div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2531</h4>
+        <p>เปิดสาขาต่างประเทศครั้งแรกของโคคาเริ่มในสิงคโปร์เป็นที่แรกตามมาด้วยในประเทศญี่ปุ่น, อินโดนีเซีย, มาเลเซีย, ลาว, พม่า, เกาหลีใต้และจีน.</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/story/5.png"></div>
+      <div class="cntl-icon cntl-center">2531</div>
+    </div>
+	<div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2550</h4>
+        <p>ต่อมาได้ขยายตัวไปยังประเทศกัมพูชาในเดือนเมษายนปีพ.ศ. 2550 ตามมาในเดือนสิงหาคมต่อมาที่เวียดนามในเมืองโฮจิมินห์.</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/story/6.png"></div>
+      <div class="cntl-icon cntl-center">2550</div>
+    </div>
+	<div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2554</h4>
+        <p>โคคาเปิดสาขาอีกในสิงคโปร์บนเกาะเซนโตซ่าและยังอยู่ในหมู่บ้าน Kemang กรุงจาการ์ตา ประเทศอินโดนีเซีย</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/story/7.png"></div>
+      <div class="cntl-icon cntl-center">2554</div>
+    </div>
+	<div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2555</h4>
+        <p>การก่อตั้งสาขาที่ประเทศฟิลิปปินส์ ในกรุงมะนิลาทำให้เกิดกระแสครึกโครม.</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/story/8.png"></div>
+      <div class="cntl-icon cntl-center">2555</div>
+    </div>
+	<div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2555</h4>
+        <p>โคคานำติ่มซำมาให้บริการในกรุงเทพโดยปรุงจากเชฟฮ่องกง.</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/story/9.png"></div>
+      <div class="cntl-icon cntl-center">2555</div>
+    </div>
+	<div class="cntl-state">
+      <div class="cntl-content">
+        <h4>2557</h4>
+        <p>ครั้งแรกที่โคคาคาเฟ่ สำหรับคนรุ่นใหม่เปิดขึ้นในกรุงเทพฯ</p>
+      </div>
+      <div class="cntl-image"><img src="timeline/images/story/10.png"></div>
+      <div class="cntl-icon cntl-center">2557</div>
+    </div>
+  </div>
+</div>
+					<br>
+                    <a href="home.html" class="btn btn-default btn-xl">กลับหน้าแรก</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    </section>
+	<!--===Start Footer===-->
+	<div id="footer"></div>
+	<!--===Ends Footer===-->
+	<a id="backTop">Top</a>
+	
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+	<!-- Timeline -->
+	<script type="text/javascript" src="timeline/lib/jquery.cntl.js"></script> 
+	<script type="text/javascript">
+	$(document).ready(function(e){
+		$('.cntl').cntl({
+			revealbefore: 300,
+			anim_class: 'cntl-animate',
+			onreveal: function(e){
+				console.log(e);
+			}
+		});
+	});
+	</script>
+
+	<!-- Include html file -->
+	<script> 
+		$(function(){
+		  $('#navigation').load("views/nav.php");
+		  $("#footer").load("views/footer.html"); 
+		});
+	</script> 
+
+	<!-- Back to top -->
+	<script src="js/jquery.backTop.min.js"></script>
+	<script>
+            $(document).ready( function() {
+                $('#backTop').backTop({
+                    'position' : 600,
+                    'speed' : 500,
+                    'color' : 'red',
+                });
+            });
+    </script>
+	
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+<section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">More Coca Restaurants</h2>
+                    <hr class="primary">
+                    <p>Our Contact</p>
+                </div>
+                <div class="col-lg-4 text-center">
+				<a href="#">
+					<i class="fa fa-phone fa-3x wow bounceIn"></i>
+					</a>
+                    <p><a href="">0-2234-1957</a></p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <a href="mailto:mkt@coca.com&cc=natalie.phanphensophon@coca.com;webmaster@coca.com;">
+					<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+					</a>
+                    <p><a href="mailto:mkt@coca.com&cc=natalie.phanphensophon@coca.com;webmaster@coca.com;">Marketing Coca</a></p>
+                </div>
+				<div class="col-lg-4 text-center">
+                    <!--<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>-->
+                    <a href="http://facebook.com/cocarestaurantofficial" target="_blank">
+					<i class="fa fa-facebook fa-3x wow bounceIn" data-wow-delay=".1s">
+					</i></a>
+					<p><a href="http://facebook.com/cocarestaurantofficial" target="_blank">@CocaRestaurantOfficial</a></p>
+                </div>
+				<!--<div class="col-lg-4 text-center">
+                    <!--<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>-->
+                    <!--<a href="http://www.twitter.com" target="_blank">
+					<i class="fa fa-twitter fa-3x wow bounceIn" data-wow-delay=".1s">
+					</i></a>
+					<p><a href="http://www.twitter.com" target="_blank">#CocaRestaurantThailand</a></p>
+                </div>-->
+				<div class="col-lg-4 text-center">
+                    <!--<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>-->
+                    <a href="https://www.youtube.com/channel/UCwui6N2cVTynI_ZzhXCiJTQ" target="_blank">
+					<i class="fa fa-youtube fa-3x wow bounceIn" data-wow-delay=".1s">
+					</i>
+					</a>
+					<p><a href="https://www.youtube.com/channel/UCwui6N2cVTynI_ZzhXCiJTQ" target="_blank">Coca Channel</a></p>
+                </div>
+				<div class="col-lg-4 text-center">
+                    <!--<i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>-->
+                    <a href="https://www.instagram.com/cocarestaurant/" target="_blank">
+					<i class="fa fa-instagram fa-3x wow bounceIn" data-wow-delay=".1s">
+					</i>
+					</a>
+					<p><a href="https://www.instagram.com/cocarestaurant/" target="_blank">#CocaRestaurant</a></p>
+                </div>
+				<div class="col-lg-12 text-center">
+				</div>
+				<div class="col-lg-12 text-center">
+					<div class="fb-page" data-href="https://www.facebook.com/cocarestaurantofficial" data-tabs="timeline" data-width="350" data-height="120" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+	<aside style="padding-top:0px;background: #ffffff;">
+					<div class="container">
+						<div class="row">
+						<div class="col-lg-12 col-lg-offset-2 text-center" style="margin:5% 0;">
+						<h2 class="section-heading">Our Families</h2>
+						<hr class="primary">
+						</div>
+						<ul id="partner">
+							<li><a href="../../coca_group/cocagroup.html" target="_blank"><img src="../img/logo/Logo-COCA.jpg" alt="cocarestaurant"></a></li>
+							<li><a href="http://www.mangotreerestaurants.com/" target="_blank"><img src="../img/logo/Logo-Mango-Tree.jpg" alt="mangotree"></a></li>
+							<li><a href="../../bistro/" target="_blank"><img src="../img/logo/Logo-Mango-Tree-Bistro.jpg" alt="mangotreebistro"></a></li>
+							<li><a href="../../chinawhite/" target="_blank"><img src="../img/logo/Logo-China-White.jpg" alt="chinawhite"></a></li>
+							<li><a href="../../lake_tea8/" target="_blank"><img src="../img/logo/Logo-Lake-Tea-8.jpg" alt="laketea8"></a></li>
+							<!--<li><a href="../../kroissant/" target="_blank"><img src="../img/logo/Logo-Kroissant-house.jpg" alt="kroissanthouse"></a></li>-->
+						</ul>
+						</div>
+					</div>
+	</aside>
+	<aside id="footer" class="bg-dark">
+		<div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+					 <a href="#">English</a> | <a href="../home.html">ภาษาไทย</a>
+					 <p> Coca Holding International Co.,Ltd © 2016</p>
+					 <img src="../img/qa/iso.jpg" width="140px" height="80px" alt="iso 9001"/> <img src="../img/qa/fss.jpg" width="120px" height="80px" alt="food service standard for tourism"/> 
+				</div>
+            </div>
+        </div>
+	</aside>

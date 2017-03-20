@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Coca restaurant Think of Suki think Coca Restaurant">
+    <meta name="author" content="S.NATAPONG">
+	<meta property="og:url"           content="http://www.coca.com/cocarestaurant/en/branch.html" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="Coca holding international" />
+	<meta property="og:description"   content="Coca restaurant Think of Suki think Coca Restaurant New promotion here!!" />
+	<meta property="og:image"         content="http://www.coca.com/cocarestaurant/promotion/images/2016/02/share/1.jpg" />
+	<meta name="keywords" content="coca, cocarestaurant,best chinese restaurant,best chinese restaurant in bangkok, restaurant, suki,sukirestaurant, suki&restaurant, sukibar, seafood, hotpot, chinese, chineserestaurant, chinesefood, dimsum, noodle, dish, food, dinner, fusionfood, thaifusion, chinesefusion, japanesefusion, thaicusine, thaifood, healthfood, delicious, goodtaste, hungry, สุกี้, ร้านอาหาร, ร้านสุกี้, สุกี้ไทย, ตำนาน, ตำนานสุกี้ไทย, สุกี้ดั่งเดิม, สุกี้บาร์, ชุดสุกี้, ภัตราคารสุกี้, ครัวไทย, อาหารจีน, อร่อย, หลากหลาย, อร่อยมาก, หม้อ, จานด่วน, ร้านจีน, ร้านอาหารจีน, เพื่อสุขภาพ, อาหารเพื่อสุขภาพ, บะหมี่เกี๊ยว, อาหารไทย, อาหารญี่ปุ่น, ซีฟู๊ด, ฯลฯ">
+
+    <title>Coca International Holding</title>
+	<link rel="shortcut icon" type="image/ico" href="../img/favicon/coca.ico"/>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="../css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/creative.css" type="text/css">
+	
+	<!-- Add Back to top -->
+	<link href="../css/backTop.css" rel="stylesheet">
+	<!-- Creative button CSS -->
+	<link rel="stylesheet" type="text/css" href="../css/component.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<!-- Table Responsive -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>-->
+	<!-- End of Table Responsive -->
+	
+	<script type="text/javascript">
+// <![CDATA[
+/* No Right Click */
+var message="สนใจติดต่อ natapong.sripeung@Coca.com";
+function clickIE4()
+{
+	if (event.button==2)
+	{
+		alert(message);
+		return false;
+	}
+}
+function clickNS4(e)
+{
+	if (document.layers||document.getElementById&&!document.all)
+	{
+		if (e.which==2||e.which==3)
+		{
+			alert(message);
+			return false;
+		}
+	}
+}
+if(document.layers)
+{
+	document.captureEvents(Event.MOUSEDOWN);
+	document.onmousedown=clickNS4;
+}
+else if(document.all&&!document.getElementById)
+{
+	document.onmousedown=clickIE4;
+}
+document.oncontextmenu=new Function("alert(message);return false");
+/* End No Right Click */
+
+/* No Highlighting */
+var omitformtags=["input", "textarea", "select"];
+omitformtags=omitformtags.join("|");
+function disableselect(e)
+{
+	if (omitformtags.indexOf(e.target.tagName.toLowerCase())==-1)
+	return false
+}
+function reEnable()
+{
+	return true
+}
+if(typeof document.onselectstart!="undefined")
+{
+	document.onselectstart=new Function ("return false")
+}
+else
+{
+	document.onmousedown=disableselect;
+	document.onmouseup=reEnable;
+}
+/* End  No Highlighting */
+// ]]>
+</script>
+
+	<!--Google analytics-->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-68962405-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!--Flares social share-->
+<script data-cfasync="false" type="text/javascript" src="//filamentapp.s3.amazonaws.com/0b7dd9754bc192f86e8f347c3b2ebbc5.js" async="async"></script>
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAcHG-lrxYWcNz_igC0j0O4bvl2c65m8cI">
+</script>
+<!-- Google map API -->
+<script>
+			function initialize()
+			{
+				//Initial Lat,Long
+				var myCenter = new google.maps.LatLng(13.728764,100.529923);
+				var myCenter2 = new google.maps.LatLng(13.728764,100.529923);
+				var myCenter3 = new google.maps.LatLng(13.7463812,100.5335783);
+				var myCenter4 = new google.maps.LatLng(13.7441426,100.5354435);
+				var myCenter5 = new google.maps.LatLng(13.7470191,100.5393076);
+				var myCenter6 = new google.maps.LatLng(13.7380555,100.55874);
+				var myCenter7 = new google.maps.LatLng(13.7305069,100.5704795);
+				var myCenter8 = new google.maps.LatLng(13.9033915,100.5288399);
+				var myCenter9 = new google.maps.LatLng(13.6468363,100.6809943);
+				var myCenter10 = new google.maps.LatLng(12.5480010,99.9620584);
+				//set map
+			  var mapProp = {
+				  placeId: 'ChIJN1t_tDeuEmsRUsoyG83frY4',
+				center: myCenter,
+				zoom:18,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			  };
+			  var mapProp2 = {
+				center: myCenter2,
+				zoom:18,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			  };
+			  var mapProp3 = {
+				center: myCenter3,
+				zoom:20,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			  };
+			  var mapProp4 = {
+				center: myCenter4,
+				zoom:19,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			  };
+			  var mapProp5 = {
+				  placeId: 'ChIJN1t_tDeuEmsRUsoyG83frY4',
+				center: myCenter5,
+				zoom:20,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			  };
+			  var mapProp6 = {
+				center: myCenter6,
+				zoom:18,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			  };
+			  var mapProp7 = {
+				center: myCenter7,
+				zoom:20,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			  };
+			  var mapProp8 = {
+				center: myCenter8,
+				zoom:20,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			  };
+			  var mapProp9 = {
+				center: myCenter9,
+				zoom:20,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			  };
+			  var mapProp10 = {
+				center: myCenter10,
+				zoom:20,
+				mapTypeId: google.maps.MapTypeId.ROADMAP
+			  };
+
+				//set marker red point
+			  var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+			  var marker=new google.maps.Marker({
+				  position:myCenter,
+				  animation:google.maps.Animation.BOUNCE
+				  });
+
+				marker.setMap(map);
+				//set info window
+			  var infowindow = new google.maps.InfoWindow({
+				content:"4th floor. Coca Surawongse 8 Building ,Anuman Rajdhon alley.,Surawongse Road, Suriyawongse, Bangrak, Bangkok 10500"
+				});
+
+				infowindow.open(map,marker);
+
+			  var map2 = new google.maps.Map(document.getElementById("googleMap2"),mapProp2);
+			  var marker=new google.maps.Marker({
+				  position:myCenter2,
+				  animation:google.maps.Animation.BOUNCE
+				  });
+
+				marker.setMap(map2);
+				//set info window
+			  var infowindow = new google.maps.InfoWindow({
+				content:"Coca Surawongse 8 Building ,Anuman Rajdhon alley.,Surawongse Road, Suriyawongse, Bangrak, Bangkok 10500"
+				});
+
+				infowindow.open(map2,marker);
+
+			  var map3 = new google.maps.Map(document.getElementById("googleMap3"),mapProp3);
+			  var marker=new google.maps.Marker({
+				  position:myCenter3,
+				  animation:google.maps.Animation.BOUNCE
+				  });
+
+				marker.setMap(map3);
+				//set info window
+			  var infowindow = new google.maps.InfoWindow({
+				content:"979 Siam Center Building Room 430-2, 4th Floor,Siam Center, Rama 1 Road, Pathumwan, Bangkok 10330"
+				});
+
+				infowindow.open(map3,marker);
+
+			  var map4 = new google.maps.Map(document.getElementById("googleMap4"),mapProp4);
+			  var marker=new google.maps.Marker({
+				  position:myCenter4,
+				  animation:google.maps.Animation.BOUNCE
+				  });
+
+				marker.setMap(map4);
+				//set info window
+			  var infowindow = new google.maps.InfoWindow({
+				content:"Siam Square alley 7, Henry Dunant Road, Pathumwan, Bangkok 10330"
+				});
+
+				infowindow.open(map4,marker);
+
+				var map5 = new google.maps.Map(document.getElementById("googleMap5"),mapProp5);
+			  var marker=new google.maps.Marker({
+				  position:myCenter5,
+				  animation:google.maps.Animation.BOUNCE
+				  });
+
+				marker.setMap(map5);
+				//set info window
+			  var infowindow = new google.maps.InfoWindow({
+				content:"6FL, Zone B, 610, Central World,Rama 1 Road, Pathumwan, Bangkok 10330"
+				});
+
+				infowindow.open(map5,marker);
+
+			  var map6 = new google.maps.Map(document.getElementById("googleMap6"),mapProp6);
+			  var marker=new google.maps.Marker({
+				  position:myCenter6,
+				  animation:google.maps.Animation.BOUNCE
+				  });
+
+				marker.setMap(map6);
+				//set info window
+			  var infowindow = new google.maps.InfoWindow({
+				content:"246 Times Square Building, Ground Floor, Sukhumvit Road, Klong Toey,Bangkok 10110"
+				});
+
+				infowindow.open(map6,marker);
+
+			  var map7 = new google.maps.Map(document.getElementById("googleMap7"),mapProp7);
+			  var marker=new google.maps.Marker({
+				  position:myCenter7,
+				  animation:google.maps.Animation.BOUNCE
+				  });
+
+				marker.setMap(map7);
+				//set info window
+			  var infowindow = new google.maps.InfoWindow({
+				content:"1 / 1-5 alley 39 Sukhumvit Road,Khlong Tan Nuea,Watthana,Bangkok 10110"
+				});
+
+				infowindow.open(map7,marker);
+
+			  var map8 = new google.maps.Map(document.getElementById("googleMap8"),mapProp8);
+			  var marker=new google.maps.Marker({
+				  position:myCenter8,
+				  animation:google.maps.Animation.BOUNCE
+				  });
+
+				marker.setMap(map8);
+				//set info window
+			  var infowindow = new google.maps.InfoWindow({
+				content:"Central Chaengwattana,5th Floor,Pak Kret , Nonthaburi 11120"
+				});
+
+				infowindow.open(map8,marker);
+
+			  var map9 = new google.maps.Map(document.getElementById("googleMap9"),mapProp9);
+			  var marker=new google.maps.Marker({
+				  position:myCenter9,
+				  animation:google.maps.Animation.BOUNCE
+				  });
+
+				marker.setMap(map9);
+				//set info window
+			  var infowindow = new google.maps.InfoWindow({
+				content:"39 Moo 6 Bangna - Trad Road, Bangkaew, BangPhli, Samutprakan 10540"
+				});
+
+				infowindow.open(map9,marker);
+
+			  var map10 = new google.maps.Map(document.getElementById("googleMap10"),mapProp10);
+			  var marker=new google.maps.Marker({
+				  position:myCenter10,
+				  animation:google.maps.Animation.BOUNCE
+				  });
+
+				marker.setMap(map10);
+				//set info window
+			  var infowindow = new google.maps.InfoWindow({
+				content:"Bluport resort mall ,G Floor ,Phetkasem Road ,Nong Kaem , Hua Hin , Prachuap Khiri Khan"
+				});
+
+				infowindow.open(map10,marker);
+			  
+			}
+
+			google.maps.event.addDomListener(window, 'load', initialize);
+</script>	
+<!-- Creative Button JS-->
+<script src="../js/modernizr.custom.js"></script>
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <img style="float:left;" src="img/favicon/coca.png" width="40px" height="40px"><a class="navbar-brand page-scroll" href="home.html">Coca.com</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+					<li>
+                        <a class="page-scroll" href="http://partner.eztable.com/coca"><i class="fa fa-calendar"></i> Booknow</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="home.html#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="home.html#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#brch">Ours Branch</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="menu.html">Menu</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="promotion.html">Promotion</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="../branch.html">ภาษาไทย</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1>Simple Healthy Lively</h1>
+                <hr>
+                <p>Think of Suki think Coca Restaurant</p>
+			
+                <a href="#brch" class="btn btn-primary btn-xl page-scroll">Click to view ours branch</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="brch">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Our Branch</h2>
+                    <hr class="light">
+					<table align="center">
+					<tr id="gm">
+					<td style="padding:5px;">
+					<h3>Headquarter</h3>
+					<p class="textinfo">Open : 8.30</p>
+					<p class="textinfo">Close : 18.00</p>
+					<p class="textinfo">Tel : 0-2234-1957</p>
+					<p class="textinfo">Fax : 0-2233-1957</p>
+					<!--<div id="main">
+					<iframe id="maincoca" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1629.5858410425412!2d100.52901930226544!3d13.728730765599474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xf674f6a1dcebd4b9!2z4LmC4LiE4LiE4LiyIOC4quC4uOC4geC4teC5iSDguKPguYnguLLguJnguKrguLjguIHguLXguYkgKOC4quC4suC4guC4siDguYLguITguITguLIg4Liq4Li44LiB4Li14LmJIOC4quC4uOC4o-C4p-C4h-C4qOC5jCk!5e0!3m2!1sth!2sth!4v1447325850649" width="350" height="300" frameborder="1" style="border:1" allowfullscreen></iframe>
+					</div>-->
+					<div id="googleMap" style="width:350px;height:300px;"></div>
+					</td>
+					</tr>
+					<tr id="gm2">
+					<td style="padding:5px;">
+					<h3>Surawongse</h3>
+					<p class="textinfo">Open : 10.00 - 14.00</p>
+					<p class="textinfo">Open : 17.00 - 22.00</p>
+					<p class="textinfo">Reserved : 02-236-0107</p>
+					<p><a href="http://partner.eztable.com/coca?restaurant_id=11827" target="_blank"><button class="btnc btn-2 btn-2a">Book now</button></a></p>
+					<!--<div id="surawong">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1629.5858410425412!2d100.52901930226544!3d13.728730765599474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xf674f6a1dcebd4b9!2z4LmC4LiE4LiE4LiyIOC4quC4uOC4geC4teC5iSDguKPguYnguLLguJnguKrguLjguIHguLXguYkgKOC4quC4suC4guC4siDguYLguITguITguLIg4Liq4Li44LiB4Li14LmJIOC4quC4uOC4o-C4p-C4h-C4qOC5jCk!5e0!3m2!1sth!2sth!4v1447325850649" width="350" height="300" frameborder="1" style="border:1" allowfullscreen></iframe>
+					</div>-->
+					<div id="googleMap2" style="width:350px;height:300px;"></div>
+					</td>
+					</tr>
+					<tr id="gm3">
+					<td style="padding:5px;">
+					<h3>Siam Center</h3>
+					<p class="textinfo">Open :  10.00</p>
+					<p class="textinfo">Close :  22.00</p>
+					<p class="textinfo">Reserved : 02-658-1105-6</p>
+					<p><a href="http://partner.eztable.com/coca?restaurant_id=11778" target="_blank"><button class="btnc btn-2 btn-2a">Book now</button></a></p>
+					<!--<div id="siamct">
+					<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.535331888603!2d100.53004881483042!3d13.746558990350806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7d31a288a6823faf!2z4LmC4LiE4LiE4LiyIOC4quC4uOC4geC4teC5iSDguKPguYnguLLguJnguKrguLjguIHguLXguYkgKOC4quC4suC4guC4siDguKrguKLguLLguKHguYDguIvguYfguJnguYDguJXguK3guKPguYwp!5e0!3m2!1sth!2sth!4v1447380064840" width="350" height="300" frameborder="1" style="border:1" allowfullscreen></iframe>
+					</div>-->
+					<div id="googleMap3" style="width:350px;height:300px;"></div>
+					</td>
+					</tr>
+					<tr id="gm4">
+					<td style="padding:5px;">
+					<h3>Siam Square</h3>
+					<p class="textinfo">Open :  10.00</p>
+					<p class="textinfo">Close :  22.00</p>
+					<p class="textinfo">Reserved : 02-251-6337</p>
+					<p><a href="http://partner.eztable.com/coca?restaurant_id=11779" target="_blank"><button class="btnc btn-2 btn-2a">Book now</button></a></p>
+					<!--<div id="siamsq">
+					<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.575058566618!2d100.53324931483039!3d13.74415799035245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd6091aca08c7bcbf!2sCoca+Suki+%26+Restaurant+(Siam+Square)!5e0!3m2!1sth!2sth!4v1447380493961" width="350" height="300" frameborder="1" style="border:1" allowfullscreen></iframe>
+					</div>-->
+					<div id="googleMap4" style="width:350px;height:300px;"></div>
+					</td>
+					</tr>
+					<tr id="gm5">
+					<td style="padding:5px;">
+					<h3>Central World</h3>
+					<p class="textinfo">Open :  10.00</p>
+					<p class="textinfo">Close :  22.00</p>
+					<p class="textinfo">Reserved : 02-255-6365</p>
+					<p><a href="http://partner.eztable.com/coca?restaurant_id=11824" target="_blank"><button class="btnc btn-2 btn-2a">Book now</button></a></p>
+					<!--<div id="ctw">
+					<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.528009590273!2d100.53722451483043!3d13.747001490350556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf32824c6b1bae4b5!2z4LmC4LiE4LiE4Liy4LmA4Lij4Liq4LmA4LiV4Lit4Lij4Lit4LiH!5e0!3m2!1sth!2sth!4v1447380734084" width="350" height="300" frameborder="1" style="border:1" allowfullscreen></iframe>
+					</div>-->
+					<div id="googleMap5" style="width:350px;height:300px;"></div>
+					</td>
+					</tr>
+					<tr id="gm6">
+					<td style="padding:5px;">
+					<h3>Timesquare</h3>
+					<p class="textinfo">Open :  10.00</p>
+					<p class="textinfo">Close :  22.00</p>
+					<p class="textinfo">Reserved : 02-250-0050-2</p>
+					<p><a href="http://partner.eztable.com/coca?restaurant_id=11825" target="_blank"><button class="btnc btn-2 btn-2a">Book now</button></a></p>
+					<!--<div id="tsq">
+					<iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1829.0770654115438!2d100.55861181270231!3d13.7378561896117!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29ee3bf48c54f%3A0xca0e1fab5366e724!2z4Lig4Lix4LiV4LiV4Liy4LiE4Liy4Lij4LmC4LiE4LiE4LiyICjguYTguJfguKHguYzguKrguYHguITguKfguKPguYwp!5e0!3m2!1sth!2sth!4v1447381961090" width="350" height="300" frameborder="1" style="border:1" allowfullscreen></iframe>
+					</div>-->
+					<div id="googleMap6" style="width:350px;height:300px;"></div>
+					</td>
+					</tr>
+					<tr id="gm7">
+					<td style="padding:5px;">
+					<h3>Sukhumvit 39<h3>
+					<p class="textinfo">Open :  10.00</p>
+					<p class="textinfo">Close :  22.00</p>
+					<p class="textinfo">Reserved : 02-259-8188-9</p>
+					<p><a href="http://partner.eztable.com/coca?restaurant_id=11826" target="_blank"><button class="btnc btn-2 btn-2a">Book now</button></a></p>
+					<!--<div id="sk39">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242.22664832444678!2d100.5729125313172!3d13.74105602934339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xdb660f5f260beac9!2z4LmC4LiE4LiE4LiyIOC4quC4uOC4geC4teC5iSDguKPguYnguLLguJnguKrguLjguIHguLXguYkgKOC4quC4suC4guC4siDguKrguLjguILguLjguKHguKfguLTguJcgMzkp!5e0!3m2!1sth!2sth!4v1454553365451" width="350" height="300" frameborder="1" style="border:1" allowfullscreen></iframe>
+					</div>-->
+					<div id="googleMap7" style="width:350px;height:300px;"></div>
+					</td>
+					</tr>
+					<tr id="gm8">
+					<td style="padding:5px;">
+					<h3>Central Chaengwattana</h3>
+					<p class="textinfo">Open :  10.00</p>
+					<p class="textinfo">Close :  22.00</p>
+					<p class="textinfo">Reserved : 02-193-8220</p>
+					<p><a href="http://partner.eztable.com/coca?restaurant_id=11828" target="_blank"><button class="btnc btn-2 btn-2a">Book now</button></a></p>
+					<!--<div id="cwn">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d968.2307437944446!2d100.5283086292092!3d13.903552011477107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xd58fc9b63d5cb562!2sCoca+Restaurant+Central!5e0!3m2!1sth!2sth!4v1454554260145" width="350" height="300" frameborder="1" style="border:1" allowfullscreen></iframe>-->
+					<div id="googleMap8" style="width:350px;height:300px;"></div>
+					</div>
+					</td>
+					</tr>
+					<tr id="gm9">
+					<td style="padding:5px;">
+					<h3>Mega Bangna</h3>
+					<p class="textinfo">Open :  10.00</p>
+					<p class="textinfo">Close :  22.00</p>
+					<p class="textinfo">Reserved : 02-105-1709</p>
+					<p><a href="http://partner.eztable.com/coca?restaurant_id=11829" target="_blank"><button class="btnc btn-2 btn-2a">Book now</button></a></p>
+					<!--<div id="mega">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d829.6817804658076!2d100.68013955429782!3d13.647192620926385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xc3444509ebca42e4!2sCoca!5e0!3m2!1sth!2sth!4v1454573529306" width="350" height="300" frameborder="1" style="border:1" allowfullscreen></iframe>
+					</div>-->
+					<div id="googleMap9" style="width:350px;height:300px;"></div>
+					</td>
+					</tr>
+					<tr id="gm10"> 
+					<td style="padding:5px;">
+					<h3>Bluport Huahin</h3>
+					<p class="textinfo">Open : 10.00</p>
+					<p class="textinfo">Close : 22.00</p>
+					<p class="textinfo">Reserved : 03-290-8369</p>
+					<p><a href="http://partner.eztable.com/coca?restaurant_id=13657" target="_blank"><button class="btnc btn-2 btn-2a">Book now</button></a></p>
+					<div id="googleMap10" style="width:350px;height:300px;"></div>
+					</td>
+					</tr>
+					</table>
+					<br>
+                    <a href="home.html" class="btn btn-default btn-xl">Back to home</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   	<!--===Start Footer===-->
+	<div id="footer"></div>
+	<!--===Ends Footer===--> 
+	<a id="backTop">Top</a>
+	
+
+    <!-- jQuery -->
+    <script src="../js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/jquery.fittext.js"></script>
+    <script src="../js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../js/creative.js"></script>
+	
+	<!-- Include html file -->
+	<script>
+		$(document).ready(function(){
+			$('#navigation').load('../views/nav.html');
+			$('#footer').load('../views/footeren.html');
+		});
+	</script>
+
+	<!-- Back to top -->
+	<script src="../js/jquery.backTop.min.js"></script>
+	<script>
+            $(document).ready( function() {
+                $('#backTop').backTop({
+                    'position' : 600,
+                    'speed' : 500,
+                    'color' : 'red',
+                });
+            });
+        </script>
+
+</body>
+
+</html>

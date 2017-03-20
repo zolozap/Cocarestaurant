@@ -1,0 +1,28 @@
+@media only screen and(max-device-width:768px){
+	.flex-images { overflow: hidden; padding-left:20%; padding-right:20%;}
+	.flex-images .item { margin: 4px; border: 1px solid #eee; box-sizing: content-box; overflow: hidden; position: relative; border-radius:15px; }
+
+}
+@media only screen and (max-device-width:320px){
+	.flex-images { overflow: hidden; padding-left:0%; padding-right:0%;}
+	.flex-images .item { margin: 4px; border: 1px solid #eee; box-sizing: content-box; overflow: hidden; position: relative; border-radius:15px; }
+
+}
+.flex-images { overflow: hidden;  padding-left:3%;}
+.flex-images .item { float: left; margin: 4px; border: 1px solid #eee; box-sizing: content-box; overflow: hidden; position: relative; border-radius:15px; }
+.flex-images .item img { display: block; width: auto; height: 100%; border-radius:15px; }
+.flex-images .item img{ opacity:0.8; border-radius:15px;}
+.flex-images .item img:hover { background:#f05f40; opacity:1.9; border-radius:15px;}
+.flex-images .item a { opacity:0; transition: opacity .15s ease-in-out;   -moz-transition: opacity .15s ease-in-out;   -webkit-transition: opacity .15s ease-in-out;}
+.flex-images .item a:hover { opacity:1.0;}
+.flex-images .item .menu-box { position: absolute; top: 50%; width: 100%; text-align: center; transform: translateY(-50%);  font-size:28px;}
+.text-faded2 { background:rgba(255,140,105,0.5); color: rgba(255,255,255,1.0); }
+/*Add new For Beverage side*/
+.flex-images .item1 { float:left; margin: 4px; border: 1px solid #eee; box-sizing: content-box; overflow: hidden; position: relative; border-radius:15px; }
+.flex-images .item1 img { display: block; width: auto; height: 100%; border-radius:15px; }
+.flex-images .item1 img{ opacity:0.8; border-radius:15px;}
+.flex-images .item1 img:hover { background:#f05f40; opacity:1.9; border-radius:15px;}
+.flex-images .item1 a { opacity:0;}
+.flex-images .item1 a:hover { opacity:1.0;}
+.flex-images .item1 .menu-box1 { position: absolute; top: 50%; width: 100%; text-align: center; transform: translateY(-50%); font-size:28px;}
+/*Add new For Beverage side*/
